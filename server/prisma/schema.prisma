@@ -1,0 +1,127 @@
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum OrderStatus {
+  PENDING
+  PROCESSING
+  SHIPPED
+  DELIVERED
+}
+
+model User {
+  id        String    @id @default(uuid())
+  name      String
+  email     String    @unique
+  role      Role      @default(USER)
+  phone     String
+  location  String
+  avatar    String?  // nullable
+  password  String    // nécessaire pour l’authentification
+  
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  comments  Comment[]
+  orders    Order[]
+  cartItems CartItem[]
+}
+
+model Book {
+  id            String      @id @default(uuid())
+  title         String
+  author        String
+  price         Float
+  originalPrice Float?
+  category      String
+  language      String
+  stock         Int
+  rating        Float       @default(0)
+  totalRatings  Int         @default(0)
+  description   String      @db.LongText
+  image         String
+  featured      Boolean     @default(false)
+  isNew         Boolean     @default(false)
+
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  comments      Comment[]
+  orderItems    OrderItem[]
+  cartItems     CartItem[]
+}
+
+model Comment {
+  id        String   @id @default(uuid())
+  book      Book     @relation(fields: [bookId], references: [id])
+  bookId    String
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  userName  String   // garde le nom au moment du commentaire
+  rating    Int
+  text      String   @db.LongText
+ 
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+}
+
+model CartItem {
+  id        String   @id @default(uuid())
+  book      Book     @relation(fields: [bookId], references: [id])
+  bookId    String
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  quantity  Int
+
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+}
+
+model Order {
+  id                String          @id @default(uuid())
+  user              User            @relation(fields: [userId], references: [id])
+  userId            String
+  items             OrderItem[]
+  total             Float
+  status            OrderStatus     @default(PENDING)
+  date              DateTime        @default(now())
+  shippingAddress   ShippingAddress @relation(fields: [shippingAddressId], references: [id])
+  shippingAddressId String
+  customerName      String?
+
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+}
+
+model OrderItem {
+  id       String   @id @default(uuid())
+  order    Order    @relation(fields: [orderId], references: [id])
+  orderId  String
+  book     Book     @relation(fields: [bookId], references: [id])
+  bookId   String
+  title    String   // titre du livre au moment de l’achat
+  price    Float
+  quantity Int
+
+  
+}
+
+model ShippingAddress {
+  id       String   @id @default(uuid())
+  street   String
+  city     String
+  state    String
+  zipCode  String
+  phone    String
+
+  orders   Order[]
+}

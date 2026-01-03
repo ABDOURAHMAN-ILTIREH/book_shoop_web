@@ -1,0 +1,448 @@
+{
+  "nav": {
+    "browseBooks": "Browse Books",
+    "adminDashboard": "Admin Dashboard",
+    "profile": "Profile",
+    "orders": "Orders",
+    "signOut": "Sign Out",
+    "signIn": "Sign In",
+    "register": "Register",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "admin":"Admin Dashboard",
+    "features":" Featured Books"
+  },
+  "book": {
+    "new": "NEW",
+    "featured": "FEATURED",
+    "sale": "SALE",
+    "by": "by",
+    "reviews": "reviews",
+    "inStock": "In Stock",
+    "onlyLeft": "Only {{count}} left",
+    "outOfStock": "Out of Stock",
+    "available": "{{count}} available",
+    "stockAvaible":"stock available",
+    "addToCart": "Add to Cart",
+    "signInToPurchase": "Sign in to purchase"
+  },"bookDetail": {
+    "title": "Book Details",
+    "quantity": "Quantity",
+    "addToCart": "Add to Cart",
+    "reviews": "Reviews",
+    "leaveReview": "Leave a Review",
+    "rating": "Rating",
+    "submitReview": "Submit Review",
+    "noReviews": "No reviews yet. Be the first to review this book!"
+  },"checkout": {
+    "orderInformation": "Order Information",
+    "orderConfirmed": "Order Confirmed!",
+    "fullName": "Full Name",
+    "phone": "Phone",
+    "address": "Address",
+    "city": "City",
+    "orderSummary": "Order Summary",
+    "total": "Total",
+    "saveOrder": "Save Order",
+    "processingOrder": "Processing Order...",
+    "orderSaved": "Order Saved Successfully!",
+    "orderPending": "Your order has been saved and is now pending review.",
+    "orderTotal": "Order Total",
+    "thankYou": "Thank you for your purchase!",
+    "continueShopping": "Continue Shopping"
+  },  
+  "model": {
+    "addBook": "Add New Book",
+    "editBook": "Edit Book",
+    "viewBook": "Book Details",
+    "title": "Title",
+    "author": "Author",
+    "price": "Price ($)",
+    "originalPrice": "Original Price ($)",
+    "stock": "Stock",
+    "category": "Category",
+    "selectCategory": "Select Category",
+    "language": "Language",
+    "selectLanguage": "Select Language",
+    "description": "Description",
+    "chooseImage": "Choose Image",
+    "imageUrl": "Or Enter Image URL",
+    "maxSize": "Max size: 5MB. Supported: JPG, PNG, GIF, WebP",
+    "featuredBook": "Featured Book",
+    "newArrival": "New Arrival",
+    "add": "Add Book",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "uploadImage": "Upload from Computer",
+    "uploading": "Uploading...",
+    "ratingDescription": "Rating from 0 to 5 stars",
+    "totalRatings": "Total Ratings",
+    "addUser": "Add New User",
+    "totalRatingsDescription": "Number of people who rated",
+    "Rating": "Initial Rating",
+    "saving": "Saving...",
+    "rating":"initial rating",
+    
+
+   
+    "editUser": "Edit User",
+    "viewUser": "User Details",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "role": "Role",
+    "userRole": "User",
+    "adminRole": "Admin",
+
+    "order":"Order",
+    "orderDetails": "Order Details",
+    "orderDate": "Order Date",
+    "totalAmount": "Total Amount",
+    "status": "Status",
+    "lastUpdate": "Last Status Update",
+    "shippingAddress": "Shipping Address",
+    "orderItems": "Order Items",
+    "each": "each",
+    "quantity": "Quantity",
+    "updateStatus": "Update Status",
+    "delete": "Delete",
+    "pending": "PENDING",
+    "processing": "PROCESSING",
+    "shipped": "SHIPPED",
+    "delivered": "DELIVERED",
+
+    "_title": "Title is required",
+    "_author": "Author is required",
+    "_category": "Category is required",
+    "_price": "Price must be greater than 0",
+    "_stock": "Stock cannot be negative",
+    "_image": "Book image is required",
+    "_description": "Description is required",
+    "_originalPrice": "Original price must be higher than current price"
+
+  },  "bookPage": {
+ 
+    "browseBooks": "Browse Books",
+    "browseSubtitle": "Discover your next favorite book from our collection",
+
+  
+    "loadingBooks": "Loading books...",
+    "errorPrefix": "Error:",
+
+    "searchPlaceholder": "Search books or authors...",
+    "allCategories": "All Categories",
+    "allLanguages": "All Languages",
+
+  
+    "sortTitle": "Title",
+    "sortPrice": "Price",
+    "sortRating": "Rating",
+
+
+    "showing": "Showing",
+    "of": "of",
+    "books": "books",
+
+    "noBooksFound": "No books found",
+    "adjustFilters": "Try adjusting your search criteria or filters"
+  },
+    "cart": {
+    
+    "signInToViewCart": "Please sign in to view your cart",
+
+    "cartEmpty": "Your cart is empty",
+    "cartEmptySubtitle": "Add some books to get started!",
+    "shoppingCart": "Cart",
+    "itemsInCart": "item in your cart",
+    "itemsInCartPlural": "items in your cart",
+    "orderSuccessful": "Order Successful!",
+    "orderSaved": "Your order has been saved successfully",
+
+    
+    "byAuthor": "by",
+    "maxStockReached": "Maximum stock reached",
+  
+    "orderSummary": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "free": "Free",
+    "tax": "Tax",
+    "total": "Total",
+
+    
+    "proceedToCheckout": "Proceed to Checkout",
+    "clearCart": "Clear Cart",
+
+
+    "orderId": "Order ID",
+    "totalAmount": "Total Amount",
+    "orderStatusPending": "Order Status: Pending Review",
+    "thankYouMessage":
+      "Thank you for your purchase! You will receive updates on your order status. You can track your order in the Orders section.",
+
+    "continueShopping": "Continue Shopping",
+    "viewOrders": "View Orders"
+  },"hero": {
+  
+    "welcomeTitle": "Welcome to BookStore",
+    "welcomeSubtitle": "Discover your next favorite book from our curated collection",
+    "getStarted": "Get Started",
+    "signIn": "Sign In",
+    "browseBooks": "Browse Books",
+
+    
+    "whyChoose": "Why Choose BookStore?",
+    "whyChooseSubtitle":
+      "We provide the best book shopping experience with quality and convenience",
+
+    "vastCollectionTitle": "Vast Collection",
+    "vastCollectionDesc": "Thousands of books across all genres",
+
+    "qualityGuaranteedTitle": "Quality Guaranteed",
+    "qualityGuaranteedDesc": "Only the best-rated books in our catalog",
+
+    "communityReviewsTitle": "Community Reviews",
+    "communityReviewsDesc": "Real reviews from verified readers",
+
+    "fastDeliveryTitle": "Fast Delivery",
+    "fastDeliveryDesc": "Quick and reliable shipping worldwide",
+
+    
+    "featuredBooks": "Featured Books",
+    "noFeaturedBooks": "No Featured Books Available",
+    "noBooksYet":
+      "Books are not available yet. Please check back later or add some books to get started.",
+
+  
+    "newArrivals": "New Arrivals",
+    "noNewBooks": "No New Books Available",
+    "viewAllBooks": "View All Books",
+
+  
+    "readyToRead": "Ready to Start Reading?",
+    "readySubtitle":
+      "Join thousands of book lovers and discover your next great read",
+    "joinToday": "Join BookStore Today"
+  },
+  "login": {
+   
+    "signInTitle": "Sign in to BookStore",
+    "signInSubtitle": "Welcome back! Please sign in to your account",
+
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email",
+
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+
+    "signInButton": "Sign In",
+    "signingIn": "Signing in...",
+
+    "noAccount": "Don't have an account?",
+    "signUpHere": "Sign up here",
+
+    "invalidCredentials": "Invalid email or password",
+
+    "demoCredentials": "Demo credentials:",
+    "demoUser": "User",
+    "demoAdmin": "Admin"
+},
+  "orders": {
+    "title": "Order History",
+    "subtitle": "Track your orders and view purchase history",
+
+    "emptyTitle": "No orders yet",
+    "emptySubtitle": "Start shopping to see your orders here!",
+
+    "order": "Order",
+    "itemsOrdered": "Items Ordered",
+    "shippingAddress": "Shipping Address",
+    "totalAmount": "Total Amount",
+
+    "status": {
+      "PENDING": "PENDING",
+      "PROCESSING": "PROCESSING",
+      "SHIPPED": "SHIPPED",
+      "DELIVERED": "DELIVERED"
+    } 
+},
+  "profile": {
+    "edit": "Edit Profile",
+    "role": "Role",
+
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "address": "Address",
+
+    "save": "Save Changes",
+    "cancel": "Cancel"
+  },
+  "register": {
+    "title": "Join BookStore",
+    "subtitle": "Create your account to start your reading journey",
+
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "address": "Address",
+
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+
+    "fullNamePlaceholder": "Enter your full name",
+    "emailPlaceholder": "Enter your email",
+    "phonePlaceholder": "Enter your phone number",
+    "addressPlaceholder": "Enter your address",
+    "passwordPlaceholder": "Create a password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+
+    "createAccount": "Create Account",
+    "creatingAccount": "Creating Account...",
+
+    "alreadyHaveAccount": "Already have an account?",
+    "signInHere": "Sign in here",
+
+    "passwordsNotMatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 6 characters long",
+    "registrationFailed": "Registration failed. Please try again."
+  },
+  "adminProducts": {
+    "title": "Products",
+    "addBook": "Add Book",
+
+    "searchPlaceholder": "Search by book title, author, or price...",
+
+    "showing": "Showing {{from}} to {{to}} of {{total}} products",
+    "filteredFrom": "(filtered from {{total}} total)",
+
+    "table": {
+      "book": "Book",
+      "author": "Author",
+      "price": "Price",
+      "stock": "Stock",
+      "rating": "Rating",
+      "actions": "Actions"
+    },
+
+    "noResults": "No products found",
+    "noResultsDesc": "No products match your search for \"{{query}}\"",
+    "clearSearch": "Clear Search",
+
+    "deleteConfirm": "Delete \"{{title}}\"?",
+    "deleteWarning": "This action cannot be undone."
+  },
+  "adminOrders": {
+    "title": "Orders",
+
+    "filters": "Filters",
+    "filterStatus": "Filter by Status",
+    "filterDate": "Filter by Date",
+    "allStatuses": "All Statuses",
+    "allDates": "All Dates",
+    "clearFilters": "Clear Filters",
+
+    "showing": "Showing {{from}} to {{to}} of {{total}} orders",
+    "filteredFrom": "(filtered from {{total}} total)",
+
+    "table": {
+      "orderId": "Order ID",
+      "customer": "Customer",
+      "orderDate": "Order Date",
+      "items": "Items",
+      "total": "Total",
+      "status": "Status",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "thisWeek": "This week",
+    "thisMonth": "This month",
+    "customDate": "Specific date",
+    "selectDate": "Select a date",
+    "selectDateTime": "Select date and time",
+    "itemsCount": "{{count}} items",
+
+    "noResults": "No orders found",
+    "noResultsDesc": "No orders match your current filters",
+
+    "deleteConfirm": "Delete the order of \"{{id}}\"?",
+    "deleteWarning": "This action cannot be undone."
+  },
+    "users": {
+      "title": "Users",
+      "searchPlaceholder": "Search by name or phone",
+      "showing": "Showing {{start}} to {{end}} of {{total}} users",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "role": "Role",
+      "actions": "Actions",
+      "admin": "ADMIN",
+      "user": "USER",
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete user {{id}}?"
+    }, 
+    "comments": {
+    "title": "Comments & Reviews",
+    "showing": "Showing {{start}} to {{end}} of {{total}} comments",
+    "book": "Book",
+    "user": "User",
+    "rating": "Rating",
+    "comment": "Comment",
+    "date": "Date",
+    "actions": "Actions",
+    "close": "Close",
+     "delete": "Delete comment by {{name}}?",
+    "deleteConfirm": "This action cannot be undone.",
+    "unknownBook": "Unknown Book"
+  },"adminDashboard": {
+    "totalBooks": "Total Books",
+    "totalUsers": "Total Users",
+    "totalOrders": "Total Orders",
+    "totalComments": "Total Comments",
+
+    "manageFeatured": "Manage Featured Books",
+    "manageDescription": "Select up to 3 books to feature on the homepage",
+
+    "noBooksSelected": "No books selected",
+    "oneBookSelected": "1 book selected",
+    "manyBooksSelected": "{{count}} books selected",
+    "maxReached": "(Maximum reached)",
+
+    "updateFeatured": "Update Featured Books",
+
+    "successUpdate": "Successfully updated {{count}} featured book",
+    "successUpdatePlural": "Successfully updated {{count}} featured books",
+    "maxLimit": "You can only select up to 3 featured books.",
+    "selectAtLeastOne": "Please select at least one book to feature."
+  }, "categories": {
+    "Science Fiction/Fiction": "Science Fiction / Fiction",
+    "Fantasy": "Fantasy",
+    "Romance": "Romance",
+    "Biography": "Biography",
+    "History": "History",
+    "Self-Help": "Self-Help",
+    "Business": "Business",
+    "Technology": "Technology",
+    "Science": "Science",
+    "Philosophy": "Philosophy",
+    "Politics": "Politics",
+    "Psychology": "Psychology",
+    "Education": "Education",
+    "Languages": "Languages",
+    "Religion": "Religion",
+    "Children": "Children"
+  },
+  "languages": {
+    "English": "English",
+    "French": "French",
+    "Arabe": "Arabic",
+    "Somalie": "Somali",
+    "Afar": "Afar"
+  }
+}

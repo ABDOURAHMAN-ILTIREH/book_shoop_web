@@ -1,0 +1,452 @@
+{
+  "nav": {
+    "browseBooks": "Parcourir les livres",
+    "adminDashboard": "Tableau admin",
+    "profile": "Profil",
+    "orders": "Commandes",
+    "signOut": "Déconnexion",
+    "signIn": "Connexion",
+    "register": "S'inscrire",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "admin":"Tableau de bord d'administration",
+    "features": "Livres en vedette"
+  },
+  "book": {
+    "new": "NOUVEAU",
+    "featured": "EN VEDETTE",
+    "sale": "PROMO",
+
+    "by": "par",
+    "reviews": "avis",
+
+    "inStock": "En stock",
+    "onlyLeft": "Plus que {{count}} restants",
+    "outOfStock": "Rupture de stock",
+    "available": "{{count}} disponibles",
+    "stockAvaible":"disponiblite de stock",
+    "addToCart": "Ajouter au panier",
+    "signInToPurchase": "Connectez-vous pour acheter"
+  },
+  "bookDetail": {
+    "title": "Détails du livre",
+    "quantity": "Quantité",
+    "addToCart": "Ajouter au panier",
+    "reviews": "Avis",
+    "leaveReview": "Laisser un avis",
+    "rating": "Note",
+    "submitReview": "Soumettre l'avis",
+    "noReviews": "Aucun avis pour le moment. Soyez le premier à laisser un avis !"
+  }, "checkout": {
+    "orderInformation": "Informations sur la commande",
+    "orderConfirmed": "Commande confirmée !",
+    "fullName": "Nom complet",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "city": "Ville",
+    "orderSummary": "Résumé de la commande",
+    "total": "Total",
+    "saveOrder": "Enregistrer la commande",
+    "processingOrder": "Traitement de la commande...",
+    "orderSaved": "Commande enregistrée avec succès !",
+    "orderPending": "Votre commande est enregistrée et en attente de traitement.",
+    "orderTotal": "Total de la commande",
+    "thankYou": "Merci pour votre achat !",
+    "continueShopping": "Continuer vos achats",
+    "saving": "Enregistrement..."
+  },  
+  "model": {
+    "addBook": "Ajouter un livre",
+    "editBook": "Modifier le livre",
+    "viewBook": "Détails du livre",
+    "title": "Titre",
+    "author": "Auteur",
+    "price": "Prix (fdj)",
+    "originalPrice": "Prix original (fdj)",
+    "stock": "Stock",
+    "category": "Catégorie",
+    "selectCategory": "Sélectionner une catégorie",
+    "language": "Langue",
+    "selectLanguage": "Sélectionner une langue",
+    "description": "Description",
+    "chooseImage": "Choisir une image",
+    "imageUrl": "Ou entrer l’URL de l’image",
+    "maxSize": "Taille max : 5Mo. Formats : JPG, PNG, GIF, WebP",
+    "featuredBook": "Livre en vedette",
+    "newArrival": "Nouvelle arrivée",
+    "add": "Ajouter le livre",
+    "save": "Enregistrer les modifications",
+    "cancel": "Annuler",
+    "uploadImage": "Télécharger depuis l’ordinateur",
+    "uploading": "Téléchargement...",
+    "ratingDescription": "Note de 0 à 5 étoiles",
+    "totalRatings": "Nombre total d’avis",
+    "totalRatingsDescription": "Nombre de personnes ayant noté",
+    "addUser": "Ajouter un utilisateur",
+    "rating": "Note initiale",
+
+    "editUser": "Modifier l’utilisateur",
+    "viewUser": "Détails de l’utilisateur",
+    "name": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "location": "Localisation",
+    "role": "Rôle",
+    "userRole": "Utilisateur",
+    "adminRole": "Administrateur",
+
+    "order":"Commande",
+    "orderDetails": "Détails de la commande",
+    "orderDate": "Date de la commande",
+    "totalAmount": "Montant total",
+    "status": "Statut",
+    "lastUpdate": "Dernière mise à jour du statut",
+    "shippingAddress": "Adresse de livraison",
+    "orderItems": "Articles commandés",
+    "each": "chacun",
+    "quantity": "Quantité",
+    "updateStatus": "Mettre à jour le statut",
+    "delete": "Supprimer",
+    "pending": "EN ATTENTE",
+    "processing": "EN COURS",
+    "shipped": "EXPÉDIÉ",
+    "delivered": "LIVRÉ",
+
+     "_title": "Le titre est obligatoire",
+    "_author": "L’auteur est obligatoire",
+    "_category":"La catégorie est obligatoire",
+    "_price": "Le prix doit être supérieur à 0",
+    "_stock": "Le stock ne peut pas être négatif",
+    "_image": "L’image du livre est obligatoire",
+    "_description": "La description est obligatoire",
+    "_originalPrice":"Le prix original doit être supérieur au prix actuel"
+  }, "bookPage": {
+   
+    "browseBooks": "Parcourir les livres",
+    "browseSubtitle": "Découvrez votre prochain livre préféré dans notre collection",
+
+  
+    "loadingBooks": "Chargement des livres...",
+    "errorPrefix": "Erreur :", 
+
+   
+    "searchPlaceholder": "Rechercher un livre ou un auteur...",
+    "allCategories": "Toutes les catégories",
+    "allLanguages": "Toutes les langues",
+
+    
+    "sortTitle": "Titre",
+    "sortPrice": "Prix",
+    "sortRating": "Note",
+
+    "showing": "Affichage de",
+    "of": "sur",
+    "books": "livres",
+
+    "noBooksFound": "Aucun livre trouvé",
+    "adjustFilters": "Essayez de modifier vos critères de recherche ou filtres"
+  },"cart":{
+    "signInTToViewCart": "Veuillez vous connecter pour voir votre panier",
+
+
+    "cartEmpty": "Votre panier est vide",
+    "cartEmptySubtitle": "Ajoutez des livres pour commencer !",
+
+
+    "shoppingCart": "Panier",
+    "itemsInCart": "article dans votre panier",
+    "itemsInCartPlural": "articles dans votre panier",
+    
+    "orderSuccessful": "Commande réussie !",
+    "orderSaved": "Votre commande a été enregistrée avec succès",
+
+    
+    "byAuthor": "par",
+    "maxStockReached": "Stock maximum atteint",
+    
+    "orderSummary": "Récapitulatif de la commande",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "free": "Gratuite",
+    "tax": "Taxe",
+    "total": "Total",
+
+    
+    "proceedToCheckout": "Passer au paiement",
+    "clearCart": "Vider le panier",
+
+    "orderId": "ID de la commande",
+    "totalAmount": "Montant total",
+    "orderStatusPending": "Statut : En attente de validation",
+    "thankYouMessage":
+        "Merci pour votre achat ! Vous recevrez des mises à jour sur l’état de votre commande. Vous pouvez suivre votre commande dans la section Commandes.",
+
+    "continueShopping": "Continuer vos achats",
+    "viewOrders": "Voir mes commandes"
+  },"hero": {
+
+      "welcomeTitle": "Bienvenue sur BookStore",
+      "welcomeSubtitle":
+        "Découvrez votre prochain livre préféré dans notre collection sélectionnée",
+      "getStarted": "Commencer",
+      "signIn": "Se connecter",
+      "browseBooks": "Parcourir les livres",
+
+      
+      "whyChoose": "Pourquoi choisir BookStore ?",
+      "whyChooseSubtitle":
+        "Nous offrons la meilleure expérience d’achat de livres avec qualité et simplicité",
+
+      "vastCollectionTitle": "Large collection",
+      "vastCollectionDesc": "Des milliers de livres dans tous les genres",
+
+      "qualityGuaranteedTitle": "Qualité garantie",
+      "qualityGuaranteedDesc": "Uniquement des livres les mieux notés",
+
+      "communityReviewsTitle": "Avis de la communauté",
+      "communityReviewsDesc": "Des avis réels de lecteurs vérifiés",
+
+      "fastDeliveryTitle": "Livraison rapide",
+      "fastDeliveryDesc": "Livraison rapide et fiable dans le monde entier",
+
+      
+      "featuredBooks": "Livres en vedette",
+      "noFeaturedBooks": "Aucun livre en vedette disponible",
+      "noBooksYet":
+        "Les livres ne sont pas encore disponibles. Veuillez réessayer plus tard ou ajouter des livres.",
+
+    
+      "newArrivals": "Nouveautés",
+      "noNewBooks": "Aucun nouveau livre disponible",
+      "viewAllBooks": "Voir tous les livres",
+
+      
+      "readyToRead": "Prêt à commencer la lecture ?",
+      "readySubtitle":
+        "Rejoignez des milliers d’amateurs de livres et découvrez votre prochaine lecture",
+      "joinToday": "Rejoindre BookStore aujourd’hui"
+    },
+    "login": {
+  
+    "signInTitle": "Connexion à BookStore",
+    "signInSubtitle": "Bon retour ! Veuillez vous connecter à votre compte",
+
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "Entrez votre e-mail",
+
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+
+    "signInButton": "Se connecter",
+    "signingIn": "Connexion en cours...",
+
+    "noAccount": "Vous n'avez pas de compte ?",
+    "signUpHere": "Inscrivez-vous ici",
+
+    "invalidCredentials": "E-mail ou mot de passe invalide",
+
+    "demoCredentials": "Identifiants de démonstration :",
+    "demoUser": "Utilisateur",
+    "demoAdmin": "Administrateur"
+  },
+    "orders": {
+      "title": "Historique des commandes",
+      "subtitle": "Suivez vos commandes et consultez votre historique d’achats",
+
+      "emptyTitle": "Aucune commande pour le moment",
+      "emptySubtitle": "Commencez vos achats pour voir vos commandes ici !",
+
+      "order": "Commande",
+      "itemsOrdered": "Articles commandés",
+      "shippingAddress": "Adresse de livraison",
+      "totalAmount": "Montant total",
+
+      "status": {
+        "PENDING": "EN ATTENTE",
+        "PROCESSING": "EN COURS",
+        "SHIPPED": "EXPÉDIÉ",
+        "DELIVERED": "LIVRÉ"
+      }
+  },
+  "profile": {
+    "edit": "Modifier le profil",
+    "role": "Rôle",
+
+    "fullName": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone",
+    "address": "Adresse",
+
+    "save": "Enregistrer les modifications",
+    "cancel": "Annuler"
+  },
+  "register": {
+    "title": "Rejoindre BookStore",
+    "subtitle": "Créez votre compte pour commencer votre aventure de lecture",
+
+    "fullName": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone",
+    "address": "Adresse",
+
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+
+    "fullNamePlaceholder": "Entrez votre nom complet",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "phonePlaceholder": "Entrez votre numéro de téléphone",
+    "addressPlaceholder": "Entrez votre adresse",
+    "passwordPlaceholder": "Créer un mot de passe",
+    "confirmPasswordPlaceholder": "Confirmez votre mot de passe",
+
+    "createAccount": "Créer un compte",
+    "creatingAccount": "Création du compte...",
+
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "signInHere": "Connectez-vous ici",
+
+    "passwordsNotMatch": "Les mots de passe ne correspondent pas",
+    "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères",
+    "registrationFailed": "L'inscription a échoué. Veuillez réessayer."
+  },
+  "adminProducts": {
+    "title": "Produits",
+    "addBook": "Ajouter un livre",
+
+    "searchPlaceholder": "Rechercher par titre, auteur ou prix...",
+
+    "showing": "Affichage de {{from}} à {{to}} sur {{total}} produits",
+    "filteredFrom": "(filtré parmi {{total}} au total)",
+
+    "table": {
+      "book": "Livre",
+      "author": "Auteur",
+      "price": "Prix",
+      "stock": "Stock",
+      "rating": "Note",
+      "actions": "Actions"
+    },
+
+    "noResults": "Aucun produit trouvé",
+    "noResultsDesc": "Aucun produit ne correspond à votre recherche \"{{query}}\"",
+    "clearSearch": "Effacer la recherche",
+
+    "deleteConfirm": "Supprimer \"{{title}}\" ?",
+    "deleteWarning": "Cette action est irréversible."
+  },
+  "adminOrders": {
+    "title": "Commandes",
+
+    "filters": "Filtres",
+    "filterStatus": "Filtrer par statut",
+    "filterDate": "Filtrer par date",
+    "allStatuses": "Tous les statuts",
+    "allDates": "Toutes les dates",
+    "clearFilters": "Effacer les filtres",
+
+    "showing": "Affichage de {{from}} à {{to}} sur {{total}} commandes",
+    "filteredFrom": "(filtré parmi {{total}} au total)",
+
+    "table": {
+      "orderId": "ID commande",
+      "customer": "Client",
+      "orderDate": "Date de commande",
+      "items": "Articles",
+      "total": "Total",
+      "status": "Statut",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "today": "Aujourd’hui",
+    "yesterday": "Hier",
+    "thisWeek": "Cette semaine",
+    "thisMonth": "Ce mois",
+    "customDate": "Date précise",
+    "selectDate": "Sélectionner une date",
+    "selectDateTime": "Sélectionner date et heure",
+  
+
+    "itemsCount": "{{count}} articles",
+
+    "noResults": "Aucune commande trouvée",
+    "noResultsDesc": "Aucune commande ne correspond aux filtres actuels",
+
+    "deleteConfirm": "Supprimer la commande de \"{{id}}\" ?",
+    "deleteWarning": "Cette action est irréversible."
+  },
+    "users": {
+      "title": "Utilisateurs",
+     "searchPlaceholder": "Rechercher par nom ou numéro de téléphone",
+      "showing": "Affichage de {{start}} à {{end}} sur {{total}} utilisateurs",
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "location": "Localisation",
+      "role": "Rôle",
+      "actions": "Actions",
+      "admin": "ADMIN",
+      "user": "UTILISATEUR",
+      "view": "Voir",
+      "edit": "Modifier",
+      "delete": "Supprime l'utilisateur  {{id}} ?"
+    }, 
+    "comments": {
+    "title": "Commentaires & Avis",
+    "showing": "Affichage de {{start}} à {{end}} sur {{total}} commentaires",
+    "book": "Livre",
+    "user": "Utilisateur",
+    "rating": "Note",
+    "comment": "Commentaire",
+    "date": "Date",
+    "actions": "Actions",
+    "close": "Fermer",
+    "delete": "Supprimer le commentaire de {{name}} ?",
+    "deleteConfirm": "Cette action est irréversible.",
+    "unknownBook": "Livre inconnu"
+  },"adminDashboard": {
+    "totalBooks": "Total des livres",
+    "totalUsers": "Total des utilisateurs",
+    "totalOrders": "Total des commandes",
+    "totalComments": "Total des commentaires",
+
+    "manageFeatured": "Gérer les livres en vedette",
+    "manageDescription": "Sélectionnez jusqu'à 3 livres à afficher sur la page d'accueil",
+
+    "noBooksSelected": "Aucun livre sélectionné",
+    "oneBookSelected": "1 livre sélectionné",
+    "manyBooksSelected": "{{count}} livres sélectionnés",
+    "maxReached": "(Limite atteinte)",
+
+    "updateFeatured": "Mettre à jour les livres en vedette",
+
+    "successUpdate": "{{count}} livre mis en vedette avec succès",
+    "successUpdatePlural": "{{count}} livres mis en vedette avec succès",
+    "maxLimit": "Vous pouvez sélectionner au maximum 3 livres.",
+    "selectAtLeastOne": "Veuillez sélectionner au moins un livre."
+  },
+  "categories": {
+    "Science Fiction/Fiction": "Science Fiction / Fiction",
+    "Fantasy": "Fantasy",
+    "Romance": "Romance",
+    "Biography": "Biographie",
+    "History": "Histoire",
+    "Self-Help": "Développement personnel",
+    "Business": "Affaires",
+    "Technology": "Technologie",
+    "Science": "Science",
+    "Philosophy": "Philosophie",
+    "Politics": "Politique",
+    "Psychology": "Psychologie",
+    "Education": "Éducation",
+    "Languages": "Langues",
+    "Religion": "Religion",
+    "Children": "Enfants"
+  },
+  "languages": {
+    "English": "Anglais",
+    "French": "Français",
+    "Arabe": "Arabe",
+    "Somalie": "Somali",
+    "Afar": "Afar"
+  }
+}
