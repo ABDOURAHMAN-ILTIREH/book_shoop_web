@@ -26,15 +26,15 @@ Front-end : React, TypeScript, Tailwind CSS, Framer Motion
 
 Back-end : Node.js, Express.js
 
-Base de données : MySQL / PostgreSQL / MongoDB (à préciser)
+Base de données : MySQL 
 
-Autres outils : JWT pour l’authentification, Axios / Fetch pour les appels API
+Autres outils : JWT pour l’authentification, Fetch pour les appels API
 
 ⚙️ Installation et lancement
 
 Cloner le projet
 
-git clone https://github.com/ton-utilisateur/book_shop.git
+git clone https://github.com/abdourahman-iltireh/book_shop.git
 cd book_shop
 
 
@@ -93,3 +93,4 @@ Commit tes changements (git commit -m 'Ajout de ma fonctionnalité')
 Push sur ta branche (git push origin feature/ma-fonctionnalité)
 
 Ouvre une Pull Request
+
