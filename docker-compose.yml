@@ -5,7 +5,7 @@ services:
     container_name: mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: iltireh2025
+      MYSQL_ROOT_PASSWORD: abdourahman2026
       MYSQL_DATABASE: books_librerie_web
     ports:
       - "3306:3306"
