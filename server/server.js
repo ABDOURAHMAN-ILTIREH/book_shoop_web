@@ -42,15 +42,15 @@ app.use("/api/uploads", express.static(path.join(__dirname, "uploads")));
 
 
 // In your Express server (for production)
-// if (process.env.NODE_ENV === 'production') {
-//   // Serve static files from React build
-//   app.use(express.static(path.join(__dirname, '../client/dist')));
+if (process.env.NODE_ENV === 'production') {
+  // Serve static files from React build
+  app.use(express.static(path.join(__dirname, '../client/dist')));
 
-//   // Handle React routing (FIXED)
-//   app.get(/.*/, (req, res) => {
-//     res.sendFile(path.join(__dirname, '../client/dist/index.html'));
-//   });
-// }
+  // Handle React routing (FIXED)
+  app.get(/.*/, (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+  });
+}
 
 
 
