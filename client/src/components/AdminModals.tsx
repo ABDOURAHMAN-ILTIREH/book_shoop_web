@@ -191,7 +191,7 @@ export const BookModal: React.FC<BookModalProps> = ({ book, isOpen, onClose, onS
   setUploading(true);
 
   try {
-    const res = await fetch('http://localhost:5000/api/books/uploads', {
+    const res = await fetch(`${import.meta.env.VITE_REACT_APP_API_BASE_URL}/books/uploads`, {
       method: 'POST',
       body: fd,
     });
