@@ -1,5 +1,5 @@
 // API Configuration
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = (import.meta as any).env.VITE_REACT_APP_API_BASE_URL;
 
 // Cookie utility functions (can still be used if needed for manual reads)
 export interface PaginatedResponse<T> {
