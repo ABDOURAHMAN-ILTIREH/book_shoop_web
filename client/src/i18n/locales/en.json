@@ -185,14 +185,14 @@
     "viewOrders": "View Orders"
   },"hero": {
   
-    "welcomeTitle": "Welcome to BookStore",
+    "welcomeTitle": "Welcome to Hikmaa BookStore",
     "welcomeSubtitle": "Discover your next favorite book from our curated collection",
     "getStarted": "Get Started",
     "signIn": "Sign In",
     "browseBooks": "Browse Books",
 
-    
-    "whyChoose": "Why Choose BookStore?",
+
+    "whyChoose": "Why Choose Hikmaa BookStore?",
     "whyChooseSubtitle":
       "We provide the best book shopping experience with quality and convenience",
 
@@ -223,11 +223,11 @@
     "readyToRead": "Ready to Start Reading?",
     "readySubtitle":
       "Join thousands of book lovers and discover your next great read",
-    "joinToday": "Join BookStore Today"
+    "joinToday": "Join Hikmaa BookStore Today"
   },
   "login": {
-   
-    "signInTitle": "Sign in to BookStore",
+
+    "signInTitle": "Sign in to Hikmaa BookStore",
     "signInSubtitle": "Welcome back! Please sign in to your account",
 
     "emailLabel": "Email Address",
@@ -280,7 +280,7 @@
     "cancel": "Cancel"
   },
   "register": {
-    "title": "Join BookStore",
+    "title": "Join Hikmaa BookStore",
     "subtitle": "Create your account to start your reading journey",
 
     "fullName": "Full Name",

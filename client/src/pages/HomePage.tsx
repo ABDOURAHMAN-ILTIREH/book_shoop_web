@@ -103,7 +103,7 @@ const HomePage: React.FC = () => {
               className="flex items-center gap-2 hover:text-blue-200 transition"
             >
               <Phone size={18} />
-              <span className='text-base'>+253 77 00 00 00</span>
+              <span className='text-base'>+25377090248</span>
             </a>
 
             {/* Email */}
@@ -112,19 +112,19 @@ const HomePage: React.FC = () => {
               className="flex items-center gap-2 hover:text-blue-200 transition"
             >
               <Mail size={18} />
-              <span className='text-base'>contact@site.com</span>
+              <span className='text-base'>ahmedabdihoussein14@gmail.com</span>
             </a>
 
             {/* Location */}
             <div className="flex items-center gap-2 text-blue-100">
               <MapPin size={18} />
-              <span className='text-base'>Djibouti</span>
+              <span className='text-base'>Djibouti/Cite Cheick Osman</span>
             </div>
           </div>
 
           {/* Right: WhatsApp */}
           <a
-            href="https://wa.me/25377000000"
+            href="https://wa.me/25377090248"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-full bg-green-500 px-4 py-1.5

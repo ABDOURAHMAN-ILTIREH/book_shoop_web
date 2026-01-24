@@ -3,13 +3,15 @@ import { initReactI18next } from 'react-i18next';
 
 import fr from './locales/fr.json';
 import en from './locales/en.json';
+import so from './locales/dj.json';
 
 i18n
   .use(initReactI18next)
   .init({
     resources: {
       fr: { translation: fr },
-      en: { translation: en }
+      en: { translation: en },
+      so: { translation: so}
     },
     lng: 'fr',        // langue par défaut
     fallbackLng: 'en',

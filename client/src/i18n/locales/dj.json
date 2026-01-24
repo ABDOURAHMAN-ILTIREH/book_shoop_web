@@ -1,0 +1,443 @@
+{
+  "nav": {
+    "browseBooks": "Fiiri buugaag",
+    "adminDashboard": "Admin",
+    "profile": "Profile",
+    "orders": "Dalabyo",
+    "signOut": "Ka bax",
+    "signIn": "Soo gal",
+    "register": "Is qor",
+    "lightMode": "Iftiin",
+    "darkMode": "Madow",
+    "admin": "Admin",
+    "features": "Buugaag la doortay"
+  },
+  "book": {
+    "new": "CUSUB",
+    "featured": "LA DOORTAY",
+    "sale": "QIIMO DHIMIS",
+    "by": "qore",
+    "reviews": "faallooyin",
+    "inStock": "Waa yaallaa",
+    "onlyLeft": "Kaliya {{count}} ayaa haray",
+    "outOfStock": "Ma jiro",
+    "available": "{{count}} waa yaallaan",
+    "stockAvaible": "Kayd yaalla",
+    "addToCart": "Ku dar Gaariga Wax-Iibsiga",
+    "signInToPurchase": "Soo gal si aad u iibsato"
+  },
+  "bookDetail": {
+    "title": "Faahfaahin buug",
+    "quantity": "Tiro",
+    "addToCart": "Ku dar Gaariga Wax-Iibsiga",
+    "reviews": "Faallooyin",
+    "leaveReview": "Ka tag faallo",
+    "rating": "Qiimeyn",
+    "submitReview": "Dir faallo",
+    "noReviews": "Faallo wali ma jiro"
+  },
+  "checkout": {
+    "orderInformation": "Macluumaad dalab",
+    "orderConfirmed": "Dalabka waa hagaagay!",
+    "fullName": "Magac buuxa",
+    "phone": "Telefoon",
+    "address": "Cinwaan",
+    "city": "Magaalo",
+    "orderSummary": "Faahfaahin dalab",
+    "total": "Wadar",
+    "saveOrder": "Kaydi dalab",
+    "processingOrder": "Dalabka socdaa...",
+    "orderSaved": "Dalabka waa la keydiyay!",
+    "orderPending": "Dalabka waa sugayaa",
+    "orderTotal": "Wadarta dalabka",
+    "thankYou": "Mahadsanid!",
+    "continueShopping": "Sii wad dukaamaysi"
+  },
+  "model": {
+    "addBook": "Ku dar buug",
+    "editBook": "Wax ka beddel buug",
+    "viewBook": "Faahfaahin buug",
+    "title": "Cinwaan",
+    "author": "Qore",
+    "price": "Qiimo",
+    "originalPrice": "Qiimo hore",
+    "stock": "Kayd",
+    "category": "Qayb",
+    "selectCategory": "Dooro qayb",
+    "language": "Luqad",
+    "selectLanguage": "Dooro luqad",
+    "description": "Sharaxaad",
+    "chooseImage": "Dooro sawir",
+    "imageUrl": "Ama geli link sawir",
+    "maxSize": "Ugu badnaan 5MB",
+    "featuredBook": "Buug la doortay",
+    "newArrival": "Soo gal cusub",
+    "add": "Ku dar",
+    "save": "Keydi",
+    "cancel": "Jooji",
+    "uploadImage": "Ka soo geli kombiyuutar",
+    "uploading": "Soo gelin...",
+    "ratingDescription": "Qiimeyn 0 ilaa 5",
+    "totalRatings": "Tirada qiimeynta",
+    "addUser": "Ku dar isticmaale",
+    "totalRatingsDescription": "Tirada dadka qiimeeyay",
+    "Rating": "Qiimeyn bilow",
+    "saving": "Keydin...",
+    "rating": "qiimeyn bilow",
+
+    "editUser": "Wax ka beddel user",
+    "viewUser": "Faahfaahin user",
+    "name": "Magac",
+    "email": "Email",
+    "phone": "Telefoon",
+    "location": "Goob",
+    "role": "Doorka",
+    "userRole": "User",
+    "adminRole": "Admin",
+
+    "order": "Dalab",
+    "orderDetails": "Faahfaahin dalab",
+    "orderDate": "Taariikh",
+    "totalAmount": "Wadar lacag",
+    "status": "Xaalad",
+    "lastUpdate": "Cusboonaysiin",
+    "shippingAddress": "Cinwaan diris",
+    "orderItems": "Waxyaabaha la dalbaday",
+    "each": "midkiiba",
+    "quantity": "Tiro",
+    "updateStatus": "Cusboonaysii",
+    "delete": "Tirtir",
+    "pending": "SUGAYA",
+    "processing": "SOCDA",
+    "shipped": "LA DIRAY",
+    "delivered": "LA GAARSIYAY",
+
+    "_title": "Cinwaan waa qasab",
+    "_author": "Qore waa qasab",
+    "_category": "Qayb waa qasab",
+    "_price": "Qiimo waa inuu ka weyn yahay 0",
+    "_stock": "Kayd ma noqon karo taban",
+    "_image": "Sawir buug waa qasab",
+    "_description": "Sharaxaad waa qasab",
+    "_originalPrice": "Qiimaha hore waa inuu ka sarreeyaa kan hadda"
+  },
+  "bookPage": {
+    "browseBooks": "Daawo Buugaagta",
+    "browseSubtitle": "Ka hel buugga aad jeceshahay ururintayada",
+
+    "loadingBooks": "Buugaagta waa la soo raaridayaa...",
+    "errorPrefix": "Khalad:",
+
+    "searchPlaceholder": "Raadi buug ama qoraa...",
+    "allCategories": "Dhammaan Qaybaha",
+    "allLanguages": "Dhammaan Luqadaha",
+
+    "sortTitle": "Cinwaan",
+    "sortPrice": "Qiime",
+    "sortRating": "Qiimeyn",
+
+    "showing": "Muujinaya",
+    "of": "ee",
+    "books": "buug",
+
+    "noBooksFound": "Buug lama helin",
+    "adjustFilters": "Isku day inaad beddesho raadinta ama shaandhaynta"
+  },
+
+  "cart": {
+    "signInToViewCart": "Fadlan soo gal si aad u aragto gaadhigaaga Wax-Iibsiga",
+
+    "cartEmpty": "Gaadhigaagu Wax-Iibsiga waa madhan yahay",
+    "cartEmptySubtitle": "Ku dar buugaag si aad u bilowdo!",
+    "shoppingCart": "gaadhigaaga Wax-Iibsiga",
+    "itemsInCart": "shayga ku jira gaadhigaaga Wax-Iibsiga",
+    "itemsInCartPlural": "shayaasha ku jira gaadhigaaga Wax-Iibsiga",
+
+    "orderSuccessful": "Dalabka wuu guuleystay!",
+    "orderSaved": "Dalabkaaga si guul leh ayaa loo keydiyay",
+
+    "byAuthor": "qoray",
+    "maxStockReached": "Kaydka ugu badan waa la gaaray",
+
+    "orderSummary": "Faahfaahinta Dalabka",
+    "subtotal": "Wadar hoose",
+    "shipping": "Gaarsiin",
+    "free": "Bilaash",
+    "tax": "Canshuur",
+    "total": "Wadar",
+
+    "proceedToCheckout": "U gudub Bixinta",
+    "clearCart": "Nadiifi Gaadhiga Wax-Iibsiga",
+
+    "orderId": "Aqoonsiga Dalabka",
+    "totalAmount": "Lacagta Guud",
+    "orderStatusPending": "Xaaladda Dalabka: Weli waa la eegayaa",
+
+    "thankYouMessage": "Waad ku mahadsan tahay iibsashadaada! Waxaad heli doontaa warar ku saabsan dalabkaaga. Waxaad ka raaci kartaa qeybta Dalabyada.",
+
+    "continueShopping": "Sii wad Iibsashada",
+    "viewOrders": "Daawo Dalabyada"
+  },
+
+  "hero": {
+    "welcomeTitle": "Ku soo dhawoow Hikmaa BookStore",
+    "welcomeSubtitle": "Ka hel buugaag tayo leh oo aad jeclaan doonto",
+    "getStarted": "Bilow",
+    "signIn": "Soo gal",
+    "browseBooks": "Daawo Buugaagta",
+
+    "whyChoose": "Maxaad u dooranaysaa Hikmaa BookStore?",
+    "whyChooseSubtitle": "Waxaan bixinaa khibrad iibsi buug oo sahlan oo tayo leh",
+
+    "vastCollectionTitle": "Buugaag Badan",
+    "vastCollectionDesc": "Kumanaan buug oo nooc walba ah",
+
+    "qualityGuaranteedTitle": "Tayo La Hubiyay",
+    "qualityGuaranteedDesc": "Buugaag si fiican loo qiimeeyay oo kaliya",
+
+    "communityReviewsTitle": "Qiimeyn Dadweyne",
+    "communityReviewsDesc": "Faallooyin dhab ah oo akhristayaal ah",
+
+    "fastDeliveryTitle": "Gaarsiin Degdeg ah",
+    "fastDeliveryDesc": "Gaarsiin degdeg ah oo lagu kalsoonaan karo",
+
+    "featuredBooks": "Buugaag La Doortay",
+    "noFeaturedBooks": "Ma jiraan buugaag la doortay",
+    "noBooksYet": "Buugaag weli lama helin. Fadlan mar kale hubi.",
+
+    "newArrivals": "Buugaag Cusub",
+    "noNewBooks": "Buugaag cusub ma jiraan",
+    "viewAllBooks": "Daawo Dhammaan Buugaagta",
+
+    "readyToRead": "Diyaar ma u tahay Akhrinta?",
+    "readySubtitle": "Ku biir kumanaan qof oo jecel buugaagta",
+    "joinToday": "Ku Biir Hikmaa BookStore Maanta"
+  },
+
+  "login": {
+    "signInTitle": "Soo gal Hikmaa BookStore",
+    "signInSubtitle": "Ku soo laabo! Fadlan soo gal akoonkaaga",
+
+    "emailLabel": "Email",
+    "emailPlaceholder": "Geli email-kaaga",
+
+    "passwordLabel": "Furaha Sirta",
+    "passwordPlaceholder": "Geli furaha sirta",
+
+    "signInButton": "Soo gal",
+    "signingIn": "Waa la soo gelayaa...",
+
+    "noAccount": "Akoon ma lihid?",
+    "signUpHere": "Halkan iska diiwaan geli",
+
+    "invalidCredentials": "Email ama password khaldan",
+
+    "demoCredentials": "Xog tijaabo:",
+    "demoUser": "Isticmaale",
+    "demoAdmin": "Maamule"
+  },
+  "orders": {
+    "title": "Taariikhda Dalabyada",
+    "subtitle": "La soco dalabyadaada oo eeg wixii aad hore u iibsatay",
+
+    "emptyTitle": "Weli dalab ma jiro",
+    "emptySubtitle": "Bilow wax iibsasho si aad halkan uga aragto dalabyadaada",
+
+    "order": "Dalab",
+    "itemsOrdered": "Waxyaabaha la dalbaday",
+    "shippingAddress": "Cinwaanka Gaarsiinta",
+    "totalAmount": "Lacagta Guud",
+
+    "status": {
+      "PENDING": "SUGAYA",
+      "PROCESSING": "WAA LA DIYAARINAYAA",
+      "SHIPPED": "LA DIRAY",
+      "DELIVERED": "LA GAARSIYAY"
+    }
+  },
+
+  "profile": {
+    "edit": "Wax ka beddel Profile-ka",
+    "role": "Doorka",
+
+    "fullName": "Magaca oo Dhan",
+    "email": "Cinwaanka Email-ka",
+    "phone": "Lambarka Taleefanka",
+    "address": "Cinwaan",
+
+    "save": "Kaydi Isbeddelada",
+    "cancel": "Ka noqo"
+  },
+
+  "register": {
+    "title": "Ku biir Hikmaa BookStore",
+    "subtitle": "Samee akoon si aad u bilowdo akhrinta",
+
+    "fullName": "Magaca oo Dhan",
+    "email": "Cinwaanka Email-ka",
+    "phone": "Lambarka Taleefanka",
+    "address": "Cinwaan",
+
+    "password": "Furaha Sirta",
+    "confirmPassword": "Xaqiiji Furaha Sirta",
+
+    "fullNamePlaceholder": "Geli magacaaga oo dhan",
+    "emailPlaceholder": "Geli email-kaaga",
+    "phonePlaceholder": "Geli lambarka taleefanka",
+    "addressPlaceholder": "Geli cinwaankaaga",
+    "passwordPlaceholder": "Samee furaha sirta",
+    "confirmPasswordPlaceholder": "Mar kale geli furaha sirta",
+
+    "createAccount": "Samee Akoon",
+    "creatingAccount": "Akoon ayaa la sameynayaa...",
+
+    "alreadyHaveAccount": "Akoon hore ma u leedahay?",
+    "signInHere": "Halkan ka soo gal",
+
+    "passwordsNotMatch": "Furaha sirta isma la eka",
+    "passwordTooShort": "Furaha sirta waa inuu ahaadaa ugu yaraan 6 xaraf",
+    "registrationFailed": "Isdiiwaangelintu way fashilantay. Fadlan mar kale isku day."
+  }, "adminProducts": {
+    "title": "Alaabooyin",
+    "addBook": "Ku dar Buug",
+
+    "searchPlaceholder": "Raadi buug, qoraa, ama qiime...",
+
+    "showing": "Muujinaya {{from}} ilaa {{to}} ee {{total}} alaab",
+    "filteredFrom": "(laga soo shaandheeyay {{total}} guud ahaan)",
+
+    "table": {
+      "book": "Buug",
+      "author": "Qoraa",
+      "price": "Qiime",
+      "stock": "Kayd",
+      "rating": "Qiimeyn",
+      "actions": "Tallaabooyin"
+    },
+
+    "noResults": "Alaab lama helin",
+    "noResultsDesc": "Ma jiro alaab ku habboon raadintaada \"{{query}}\"",
+    "clearSearch": "Tirtir Raadinta",
+
+    "deleteConfirm": "Tirtir \"{{title}}\"?",
+    "deleteWarning": "Ficilkan lama soo celin karo."
+  },
+
+  "adminOrders": {
+    "title": "Dalabyo",
+
+    "filters": "Shaandhayn",
+    "filterStatus": "Ku shaandhee Xaalad",
+    "filterDate": "Ku shaandhee Taariikh",
+    "allStatuses": "Dhammaan Xaaladaha",
+    "allDates": "Dhammaan Taariikhaha",
+    "clearFilters": "Nadiifi Shaandhaynta",
+
+    "showing": "Muujinaya {{from}} ilaa {{to}} ee {{total}} dalab",
+    "filteredFrom": "(laga soo shaandheeyay {{total}} guud ahaan)",
+
+    "table": {
+      "orderId": "Aqoonsiga Dalabka",
+      "customer": "Macmiil",
+      "orderDate": "Taariikhda Dalabka",
+      "items": "Alaabooyin",
+      "total": "Wadar",
+      "status": "Xaalad",
+      "date": "Taariikh",
+      "actions": "Tallaabooyin"
+    },
+
+    "today": "Maanta",
+    "yesterday": "Shalay",
+    "thisWeek": "Toddobaadkan",
+    "thisMonth": "Bishan",
+    "customDate": "Taariikh gaar ah",
+    "selectDate": "Dooro taariikh",
+    "selectDateTime": "Dooro taariikh iyo waqti",
+    "itemsCount": "{{count}} shay",
+
+    "noResults": "Dalab lama helin",
+    "noResultsDesc": "Ma jiro dalab ku habboon shaandhayntaada",
+
+    "deleteConfirm": "Tirtir dalabka \"{{id}}\"?",
+    "deleteWarning": "Ficilkan lama soo celin karo."
+  },
+  "users": {
+  "title": "Isticmaalayaal",
+  "searchPlaceholder": "Ku raadi magac ama taleefan",
+  "showing": "Muujinaya {{start}} ilaa {{end}} ee {{total}} isticmaalayaal",
+  "name": "Magac",
+  "email": "Iimayl",
+  "phone": "Taleefan",
+  "location": "Goob",
+  "role": "Doorka",
+  "actions": "Falal",
+  "admin": "MAAMULE",
+  "user": "ISTICMAALE",
+  "view": "Daawo",
+  "edit": "Wax ka beddel",
+  "delete": "Tirtir isticmaalaha {{id}}?"
+},
+
+"comments": {
+  "title": "Faallooyin & Qiimeyn",
+  "showing": "Muujinaya {{start}} ilaa {{end}} ee {{total}} faallooyin",
+  "book": "Buug",
+  "user": "Isticmaale",
+  "rating": "Qiimeyn",
+  "comment": "Faallo",
+  "date": "Taariikh",
+  "actions": "Falal",
+  "close": "Xir",
+  "delete": "Tirtir faallada uu qoray {{name}}?",
+  "deleteConfirm": "Falkan lama soo celin karo.",
+  "unknownBook": "Buug aan la garanayn"
+},
+
+"adminDashboard": {
+  "totalBooks": "Wadarta Buugaagta",
+  "totalUsers": "Wadarta Isticmaalayaasha",
+  "totalOrders": "Wadarta Dalabyada",
+  "totalComments": "Wadarta Faallooyinka",
+
+  "manageFeatured": "Maamul Buugaagta La Soo Bandhigay",
+  "manageDescription": "Dooro ugu badnaan 3 buug oo lagu soo bandhigo bogga hore",
+
+  "noBooksSelected": "Ma jiro buug la doortay",
+  "oneBookSelected": "Hal buug ayaa la doortay",
+  "manyBooksSelected": "{{count}} buug ayaa la doortay",
+  "maxReached": "(Xadka waa la gaaray)",
+
+  "updateFeatured": "Cusboonaysii Buugaagta La Soo Bandhigay",
+
+  "successUpdate": "Si guul leh ayaa loo cusboonaysiiyay {{count}} buug la soo bandhigay",
+  "successUpdatePlural": "Si guul leh ayaa loo cusboonaysiiyay {{count}} buug oo la soo bandhigay",
+  "maxLimit": "Waxaad dooran kartaa ugu badnaan 3 buug oo la soo bandhigo.",
+  "selectAtLeastOne": "Fadlan dooro ugu yaraan hal buug."
+},
+  "categories": {
+    "Science Fiction/Fiction": "Sheekooyin cilmiyeysan",
+    "Fantasy": "Sheekooyin mala-awaal",
+    "Romance": "Jacayl",
+    "Biography": "Taariikh nololeed",
+    "History": "Taariikh",
+    "Self-Help": "Is-horumarin",
+    "Business": "Ganacsi",
+    "Technology": "Teknooloji",
+    "Science": "Cilmiga",
+    "Philosophy": "Falsafad",
+    "Politics": "Siyaasad",
+    "Psychology": "Cilmi nafsiga",
+    "Education": "Waxbarasho",
+    "Languages": "Luqado",
+    "Religion": "Diin",
+    "Children": "Carruur"
+  },
+  "languages": {
+    "English": "Ingiriis",
+    "French": "Faransiis",
+    "Arabe": "Carabi",
+    "Somalie": "Soomaali",
+    "Afar": "Cafar"
+  }
+}

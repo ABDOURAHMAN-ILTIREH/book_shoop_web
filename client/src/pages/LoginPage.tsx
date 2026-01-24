@@ -134,13 +134,13 @@ const LoginPage: React.FC = () => {
             </p>
           </div>
 
-          <div className="mt-4 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+          {/* <div className="mt-4 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
             <p className="text-xs text-gray-600 dark:text-gray-400 mb-2">{t('login.invalidCredentials')}:</p>
             <p className="text-xs text-gray-800 dark:text-gray-200">
               <strong>{t('login.demoUser')}:</strong> john@example.com (any password)<br />
               <strong>{t('login.demoAdmin')}:</strong> admin@bookstore.com (any password)
             </p>
-          </div>
+          </div> */}
         </motion.form>
       </motion.div>
     </div>

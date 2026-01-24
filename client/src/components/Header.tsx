@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 import '../i18n';
 import frFlag from '../assets/flags/fr.png';
 import enFlag from '../assets/flags/en.avif';
+import djFlag from '../assets/flags/dj.png';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,6 +31,11 @@ const languages = [
     code: 'en',
     label: 'English',
     flag: enFlag
+  },
+  {
+    code: 'so',
+    label: 'Somali',
+    flag: djFlag
   }
 ];
 
@@ -74,7 +80,7 @@ const currentLang =
                 md:text-xl
               "
             >
-              BookStore
+              HikmaaStore
             </span>
           </motion.div>
         </Link>
