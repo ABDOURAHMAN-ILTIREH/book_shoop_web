@@ -43,7 +43,7 @@ router.post('/uploads', upload.single('image'), (req, res) => {
 
   res.json({
     filename: req.file.filename,
-    url: `http://localhost:5000/api/uploads/${req.file.filename}`,
+    url: `https://alhikmaa.store/api/uploads/${req.file.filename}`,
   });
 });
 router.use(authenticateToken);
